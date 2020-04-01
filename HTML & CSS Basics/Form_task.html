@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>FormSolution</title>
+	</head>
+
+	<body>
+		<h1>Register</h1>
+		<hr>
+		<form>
+			<!-- Name -->
+			<label for="FName"><strong>First Name:</strong></label>
+			<input id="FName" type="text" name="FirstName" placeholder="John" required="yes ">
+			<label for="LName"><strong>Last Name:</strong></label>
+			<input id="LName" type="text" name="LastName" placeholder="Smith" required="yes">
+			<!-- Gender -->
+			<div>
+				<label for="male"><strong>Male</strong></label>
+				<input id="male" type="radio" name="Gender" value="Male">
+				<label for="female"><strong>Female</strong></label>
+				<input id="female" type="radio" name="Gender" value="Female">
+				<label for="other"><strong>Other</strong></label>
+				<input id="other" type="radio" name="Gender" value="Other">
+			</div>
+			<!-- Email and Password -->
+			<div>
+				<label for="mailId"><strong>Email:</strong></label>
+				<input id="mailId" type="email" name="Email" placeholder="your email" required>
+				<label for="pass"><strong>Password:</strong></label>
+				<input id="pass" type="password" name="Password" placeholder="your password" pattern="{5,10}" required title="5-10 characters required">
+			</div>
+			
+			<div>
+			<!-- Date of Birth -->
+				<label for="DOB"><strong>Birthday:</strong></label>
+						<!-- Month -->
+				<select id="DOB" name="Month">
+					<option value="0" selected disabled>Month</option>
+					<option value="1">Jan</option>
+					<option value="2">Feb</option>
+					<option value="3">Mar</option>
+					<option value="4">Apr</option>
+					<option value="5">May</option>
+					<option value="6">Jun</option>
+					<option value="7">Jul</option>
+					<option value="8">Aug</option>
+					<option value="9">Sep</option>
+					<option value="10">Oct</option>
+					<option value="11">Nov</option>
+					<option value="12">Dec</option>
+				</select>
+						<!-- Day -->
+				<select id="DOB" name="Day">
+					<option value="0" selected disabled>Day</option>
+					<option>1</option>
+					<option>2</option>
+				</select>
+						<!-- Year -->
+				<select id="DOB" name="Year">
+					<option value="0" selected disabled>Year</option>
+					<option>1980</option>
+					<option>1981</option>
+				</select>
+			</div>
+			<!-- T&C -->
+			<label><strong>I agree to terms and conditions</strong></label>
+			<input type="checkbox" name="agree" required="yes">
+			<br>
+			<!-- Submit -->
+			<input type="Submit" name="Submit">
+		</form>
+
+	</body>
+</html>
