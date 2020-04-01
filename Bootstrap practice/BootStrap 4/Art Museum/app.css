@@ -1,0 +1,81 @@
+body{
+    background-color: whitesmoke;
+    font-family: nunito;
+}
+.sec1 h2{
+    color: saddlebrown;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.sec1 p{
+    color: sienna;
+    font-weight: 100;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+.sec2 h2{
+    color: rgb(228, 10, 10);
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.sec2 p{
+    color: hotpink;
+    font-weight: 100;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+.sec3 h2{
+    color: cadetblue;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.sec3 p{
+    color: darkgray;
+    font-weight: 100;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+.sec4 h2{
+    color: olive;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.sec4 p{
+    color: limegreen;
+    font-weight: 100;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+.cnt{
+    margin-top: 50px;
+}
+#mainNavbar{
+    background-color: lightgray;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .navbar-brand{
+    color: forestgreen;
+    font-size: 1.75rem;
+}
+
+#mainNavbar .nav-link:hover{
+    color: darkgreen;
+}
+#headingGroup h1{
+    color: lightpink;
+    font-weight: 100;
+    font-size: 3.5rem;
+}
+@media (max-width: 1400px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+@media (max-width: 1200px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 2rem;
+    }
+}
