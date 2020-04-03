@@ -1,0 +1,46 @@
+Used to insert and delete at the end of an array
+
+push() and pop()
+
+syntax : arrayname.push(<element>);
+	 arrayname.pop();
+
+push()
+eg : 
+var colors = ["red", "orange", "yellow"];
+colors.push("green");
+//["red", "orange", "yellow", "green"]
+
+
+pop()
+eg : 
+var colors = ["red", "orange", "yellow"];
+colors.pop();
+//["red", "orange"]
+
+//pop() returns the removed element
+var col = colors.pop();  //orange
+
+
+-----------------------------------------------------
+=====================================================
+-----------------------------------------------------
+Used to insert and delete element at the beginning of an array
+
+unshift() and shift()
+syntax : arrayname.unshift(<element>);
+	 arrayname.shift();
+
+unshift()
+var colors = ["red", "orange", "yellow"];
+colors.unshift("infrared")
+//["infrared", "red", "orange", "yellow"] 
+
+
+shift()
+var colors = ["red", "orange", "yellow"];
+colors.shift();
+//["orange", "yellow"]
+
+//shift() also returns the removed element
+var col = colors.shift();  //orange
