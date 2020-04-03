@@ -44,3 +44,44 @@ colors.shift();
 
 //shift() also returns the removed element
 var col = colors.shift();  //orange
+
+==========================================
+------------------------------------------
+==========================================
+
+indexof()
+
+returns the first index at which the given element can be found
+
+syntax : array_name.indexof(<element>)
+eg : 
+
+var friends = ["Charlie", "Liz", "David", "Mattias", "Liz"];
+friends.indexOf("David"); //2
+
+
+------------------------------------------
+==========================================
+------------------------------------------
+
+slice()
+
+used to copy different portions of an array to another array
+
+syntax : array_name.slice(starting_index,ending_index)
+	 NOTE: starting index is inclusive and ending index is exclusive.
+
+eg : 
+var fruits = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
+//use slice to copy the 2nd and 3d fruits
+//specify index where the new array starts(1) and ends(3)
+var citrus = fruits.slice(1, 3);
+
+//this does not alter the original fruits array
+//citrus contains ['Orange','Lemon']
+//fruits contains ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
+
+//you can also use slice() to copy an entire array
+var nums = [1,2,3];
+var otherNums = nums.slice();
+//both arrays are [1,2,3]
