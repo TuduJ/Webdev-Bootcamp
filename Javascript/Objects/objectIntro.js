@@ -35,3 +35,35 @@ someObject["str"]   //Does evaluate str and looks for "name"
 // We cannot use dot notation for the property names with spaces
 someObject.fav Color    //INVALID
 someObject["fav color"] //VALID
+
+
+
+// -------------------Updating Data---------------------
+var person ={
+    name: "Travis",
+    age: 21,
+    city: "LA"
+};
+// to update age
+person["age"] +=1;
+// to update city
+person["city"] = "London";
+
+
+// ------------------Creating Object---------------------
+// make an empty object and then add to it
+var person = {}
+person.name = "Travis";
+person.age = 21;
+person.city = "LA";
+// all at once
+var person ={
+    name: "Travis",
+    age: 21,
+    city: "LA"
+};
+// another way of initializing an object
+var person = new Object();
+person.name = "Travis";
+person.age = 21;
+person.city = "LA";
