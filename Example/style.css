@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+}
+.column{
+    float: left;
+    width: 33.33%
+}
+img{
+    width: 100%;
+}
