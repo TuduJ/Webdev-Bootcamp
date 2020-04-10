@@ -10,4 +10,19 @@ var obj = {
     }
 }
 
-// 
+//  -------- Use of this Keyworrd --------
+
+// function print(arr){
+//     arr.forEach(function(el){        
+//         console.log(el);
+//     });
+// }
+
+// The method above is written inside the object along with the use of 'this' keyword is shown below
+
+// function to rint the array in the object
+obj.print = function(){
+    this.friends.forEach(function(el){
+        console.log(el);
+    });
+}
