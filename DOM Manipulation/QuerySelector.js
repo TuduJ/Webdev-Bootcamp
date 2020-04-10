@@ -5,7 +5,7 @@ h1.style.color = "white";
 
 
 var body = document.querySelector("body");
-var bcolor = ["#96ceb4", "#ffeead", "#ff6f69", "#ffcc5c", "#88d8b0"];
+var bcolor = ["#a8e6cf", "#dcedc1", "#ffd3b6", "#ffaaa5 ", "#ff8b94"];
 var index = 0;
 
 setInterval(function(){
