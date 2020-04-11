@@ -24,3 +24,7 @@ tag.style.marginTop = "200px";
 // 1. tag.classList.add("clase_name");
 // 2. tag.classList.remove("clase_name");
 // 3. tag.classList.toggle("clase_name");       <--- If the element has the 'class_name' class then it will remove it other wise it will add it to the element.
+
+// TEXT Content
+// var p = document.getElementsByTagName("p");
+// p.textContent = "Last got rid";
