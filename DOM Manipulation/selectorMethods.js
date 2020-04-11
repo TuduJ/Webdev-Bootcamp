@@ -27,3 +27,6 @@ var tags = document.getElementsByTagName("li");
 // ---------- querySelector -----------
 var tag = document.querySelector("h1");
 var li = document.querySelector("li a.special");
+
+// ---------- querySelectorAll -----------
+var bolded = document.querySelectorAll(".bolded");
