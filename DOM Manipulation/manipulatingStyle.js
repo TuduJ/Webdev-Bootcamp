@@ -25,6 +25,24 @@ tag.style.marginTop = "200px";
 // 2. tag.classList.remove("clase_name");
 // 3. tag.classList.toggle("clase_name");       <--- If the element has the 'class_name' class then it will remove it other wise it will add it to the element.
 
+
 // TEXT Content
 // var p = document.getElementsByTagName("p");
 // p.textContent = "Last got rid";
+// document.querySelector("h1").textContent = "END OF THE LESSON";          <------ This changes the content inside the h1 tag.
+
+
+// use of innerHTML
+// var p = document.getElementsByTagName("p");
+// p.innerHTML = "plants are awesome";        <----- This will select the the inner HTML tag inside the element and change it to 'plants are awesome'.
+// console.log(p);
+
+
+
+
+// -------BONUS TUTORIAL----------
+// var body = document.body.textContent;
+// console.log(body);
+
+// document.body.textContent = "<h1>Goodbye!</h1>";      <------ textContent takes all the inputs along with the tag as string
+// document.body.innerHTML = "<h1>Goodbye!</h1>";        <------ innerHTML treats the tags as HTML tags
