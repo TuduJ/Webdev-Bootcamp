@@ -3,7 +3,7 @@
 // element.addEventListener(type,functionToCall);
 
 
-// Example:-
+//1. Example:-
 // var h1 = document.querySelector("h1");
 // h1.addEventListener("click",function(){              <---- Event listener 1
 //     alert("H1 was clicked");
@@ -16,10 +16,8 @@
 
 
 
-// Examle to show changing of ul color everytime it is clicked
-
+//2.  Examle to show changing of ul color everytime it is clicked
 // var lis = document.querySelectorAll("li");
-
 // for(var i = 0; i < lis.length; i++){
 //     lis[i].addEventListener("click",function(){
 //         if(this.style.color == "red"){
