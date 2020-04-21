@@ -1,5 +1,16 @@
+body{
+    background: linear-gradient(to bottom right, rgb(0, 151, 167), rgb(94, 53, 177));
+    background-repeat: no-repeat;
+
+}
+
 #container{
     width: 360px;
     margin: 0 auto;
     border: 2px solid grey;
+}
+
+.completed{
+    color: #90A4AE;
+    text-decoration: line-through;
 }

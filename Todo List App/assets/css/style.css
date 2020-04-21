@@ -1,6 +1,17 @@
+body {
+  background: -webkit-gradient(linear, left top, right bottom, from(#0097a7), to(#5e35b1));
+  background: linear-gradient(to bottom right, #0097a7, #5e35b1);
+  background-repeat: no-repeat;
+}
+
 #container {
   width: 360px;
   margin: 0 auto;
   border: 2px solid grey;
+}
+
+.completed {
+  color: #90A4AE;
+  text-decoration: line-through;
 }
 /*# sourceMappingURL=style.css.map */

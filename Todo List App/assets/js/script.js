@@ -1,4 +1,5 @@
+var list_colors = 
 // Check of specific todo by clicking
 $("li").click(function(){
-    alert("Clicked li");
+    $(this).toggleClass("completed");
 });
